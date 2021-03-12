@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => (
               <h6 className="card__title">
                 <Link to={`/works/${work.slug}`}>{work.title}</Link>
               </h6>
-              This is a code change to test.
+              This is a code change to test again.
               <div className="card__description">
                 <p>{work.excerpt}</p>
               </div>
